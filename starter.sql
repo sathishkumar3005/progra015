@@ -1,7 +1,7 @@
 SET SERVEROUTPUT ON;
 
 DECLARE
-    marks NUMBER;
+    marks NUMBER := 0;
 BEGIN
     marks := &marks;
 
